@@ -26,3 +26,17 @@ C:\Users\GONZALO\Desktop\Nueva carpeta (12)\Tareas.V1\Tareas\Entidades\obj\Debug
 C:\Users\GONZALO\Desktop\Nueva carpeta (12)\Tareas.V1\Tareas\Entidades\obj\Debug\net5.0\Entidades.dll
 C:\Users\GONZALO\Desktop\Nueva carpeta (12)\Tareas.V1\Tareas\Entidades\obj\Debug\net5.0\ref\Entidades.dll
 C:\Users\GONZALO\Desktop\Nueva carpeta (12)\Tareas.V1\Tareas\Entidades\obj\Debug\net5.0\Entidades.pdb
+C:\Users\GONZALO\Desktop\Nueva carpeta (17)\Tareas_con_Archivos.V1-\Tareas\Entidades\bin\Debug\net5.0\Entidades.deps.json
+C:\Users\GONZALO\Desktop\Nueva carpeta (17)\Tareas_con_Archivos.V1-\Tareas\Entidades\bin\Debug\net5.0\Entidades.dll
+C:\Users\GONZALO\Desktop\Nueva carpeta (17)\Tareas_con_Archivos.V1-\Tareas\Entidades\bin\Debug\net5.0\ref\Entidades.dll
+C:\Users\GONZALO\Desktop\Nueva carpeta (17)\Tareas_con_Archivos.V1-\Tareas\Entidades\bin\Debug\net5.0\Entidades.pdb
+C:\Users\GONZALO\Desktop\Nueva carpeta (17)\Tareas_con_Archivos.V1-\Tareas\Entidades\obj\Debug\net5.0\Entidades.csproj.AssemblyReference.cache
+C:\Users\GONZALO\Desktop\Nueva carpeta (17)\Tareas_con_Archivos.V1-\Tareas\Entidades\obj\Debug\net5.0\Entidades.Properties.Resources.resources
+C:\Users\GONZALO\Desktop\Nueva carpeta (17)\Tareas_con_Archivos.V1-\Tareas\Entidades\obj\Debug\net5.0\Entidades.csproj.GenerateResource.cache
+C:\Users\GONZALO\Desktop\Nueva carpeta (17)\Tareas_con_Archivos.V1-\Tareas\Entidades\obj\Debug\net5.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GONZALO\Desktop\Nueva carpeta (17)\Tareas_con_Archivos.V1-\Tareas\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\GONZALO\Desktop\Nueva carpeta (17)\Tareas_con_Archivos.V1-\Tareas\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfo.cs
+C:\Users\GONZALO\Desktop\Nueva carpeta (17)\Tareas_con_Archivos.V1-\Tareas\Entidades\obj\Debug\net5.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\GONZALO\Desktop\Nueva carpeta (17)\Tareas_con_Archivos.V1-\Tareas\Entidades\obj\Debug\net5.0\Entidades.dll
+C:\Users\GONZALO\Desktop\Nueva carpeta (17)\Tareas_con_Archivos.V1-\Tareas\Entidades\obj\Debug\net5.0\ref\Entidades.dll
+C:\Users\GONZALO\Desktop\Nueva carpeta (17)\Tareas_con_Archivos.V1-\Tareas\Entidades\obj\Debug\net5.0\Entidades.pdb
