@@ -100,29 +100,9 @@ namespace Entidades
 
         [JsonIgnore]
         /// <summary>
-        /// Obtiene un valor para la fecha inicial (dia/mes/año), en formato String.
-        /// </summary>
-        public string FechaInicialString
-        {
-            get
-            {
-                if (this.TieneFechaInicial)
-                {
-                    return this.FechaInicial.ToString("dd/MM/yyyy");
-                }
-                else
-                {
-                    return "S/F";
-                }
-            }
-        }
-
-        [JsonIgnore]
-        [Browsable(false)]
-        /// <summary>
         /// Obtiene un valor para la fecha inicial (dia/mes/año - hora:minutos), en formato String.
         /// </summary>
-        public string FechaInicialCompletaString
+        public string FechaInicialString
         {
             get
             {
@@ -132,10 +112,10 @@ namespace Entidades
                 }
                 else
                 {
-                    return "-";
+                    return "Sin Fecha";
                 }
             }
-        }
+        }           
 
         [Browsable(false)]
         public DateTime FechaFinal
@@ -156,29 +136,9 @@ namespace Entidades
 
         [JsonIgnore]
         /// <summary>
-        /// Obtiene un valor para la fecha final (dia/mes/año), en formato String.
-        /// </summary>
-        public string FechaFinalString
-        {
-            get
-            {
-                if (this.TieneFechaFinal)
-                {
-                    return this.FechaFinal.ToString("dd/MM/yyyy");
-                }
-                else
-                {
-                    return "S/F";
-                }
-            }
-        }
-
-        [JsonIgnore]
-        [Browsable(false)]
-        /// <summary>
         /// Obtiene un valor para la fecha final (dia/mes/año - hora:minutos), en formato String.
         /// </summary>
-        public string FechaFinalCompletaString
+        public string FechaFinalString
         {
             get
             {
@@ -188,7 +148,7 @@ namespace Entidades
                 }
                 else
                 {
-                    return "-";
+                    return "Sin Fecha";
                 }
             }
         }

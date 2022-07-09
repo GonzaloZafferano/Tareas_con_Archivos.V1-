@@ -234,10 +234,10 @@ namespace Tareas
         /// Da estilo a las columnas del datagrid.
         /// </summary>
         private void DarEstiloADataGrid()
-        {        
+        {   
             this.dtgvTareas.Columns["eliminar"].Width = 100;
-            this.dtgvTareas.Columns["fechaInicial"].Width = 175;
-            this.dtgvTareas.Columns["tarea"].Width = 430;
+            this.dtgvTareas.Columns["fechaInicial"].Width = 225;
+            this.dtgvTareas.Columns["tarea"].Width = 330;
             this.dtgvTareas.Columns["estadoTarea"].Width = 150;
             this.dtgvTareas.Columns["prioridadTarea"].Width = 150;
             this.dtgvTareas.Columns["recordatorio"].Width = 175;
@@ -249,7 +249,7 @@ namespace Tareas
             this.dtgvTareas.Columns["estadoTarea"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             this.dtgvTareas.Columns["prioridadTarea"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             this.dtgvTareas.Columns["recordatorio"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            this.dtgvTareas.Columns["fechaFinal"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;         
+            this.dtgvTareas.Columns["fechaFinal"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
         }
 
         /// <summary>

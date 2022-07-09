@@ -42,8 +42,8 @@ namespace Tareas
             this.cmbBoxPrioridad.DataSource = Enum.GetValues(typeof(Tarea.Prioridad));
             this.cmbBoxPrioridad.SelectedItem = this.tareaAuxiliar.PrioridadTarea;
 
-            this.lblFechaInicial.Text = this.tareaAuxiliar.FechaInicialCompletaString;
-            this.lblFechaFinal.Text = this.tareaAuxiliar.FechaFinalCompletaString;
+            this.lblFechaInicial.Text = this.tareaAuxiliar.FechaInicialString;
+            this.lblFechaFinal.Text = this.tareaAuxiliar.FechaFinalString;
 
             this.cBoxRecordatorio.Checked = this.tareaAuxiliar.TieneRecordatorio;
 
@@ -60,7 +60,7 @@ namespace Tareas
 
             if(fecha.ShowDialog() == DialogResult.OK)
             {
-                this.lblFechaInicial.Text = this.tareaAuxiliar.FechaInicialCompletaString;      
+                this.lblFechaInicial.Text = this.tareaAuxiliar.FechaInicialString;      
             }
         }
 
@@ -70,7 +70,7 @@ namespace Tareas
 
             if (fecha.ShowDialog() == DialogResult.OK)
             {
-                this.lblFechaFinal.Text = this.tareaAuxiliar.FechaFinalCompletaString;
+                this.lblFechaFinal.Text = this.tareaAuxiliar.FechaFinalString;
             }
         }
 
