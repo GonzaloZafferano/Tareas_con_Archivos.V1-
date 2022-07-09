@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tareas", "Tareas\Tareas.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entidades", "Entidades\Entidades.csproj", "{1BA7A991-80DE-467B-AE23-F4C0851F7904}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "InstaladorTareas", "InstaladorTareas\InstaladorTareas.vdproj", "{217914D3-9232-4599-A8FE-7FDADFED54FC}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Tarea", "Tarea\Tarea.vdproj", "{2CA34FFF-3F0D-49DF-967D-8B2D23C8D7FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,8 +23,8 @@ Global
 		{1BA7A991-80DE-467B-AE23-F4C0851F7904}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BA7A991-80DE-467B-AE23-F4C0851F7904}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BA7A991-80DE-467B-AE23-F4C0851F7904}.Release|Any CPU.Build.0 = Release|Any CPU
-		{217914D3-9232-4599-A8FE-7FDADFED54FC}.Debug|Any CPU.ActiveCfg = Debug
-		{217914D3-9232-4599-A8FE-7FDADFED54FC}.Release|Any CPU.ActiveCfg = Release
+		{2CA34FFF-3F0D-49DF-967D-8B2D23C8D7FB}.Debug|Any CPU.ActiveCfg = Debug
+		{2CA34FFF-3F0D-49DF-967D-8B2D23C8D7FB}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
