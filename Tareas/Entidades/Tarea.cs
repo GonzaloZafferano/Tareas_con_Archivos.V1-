@@ -460,8 +460,6 @@ namespace Entidades
                 try
                 {
                     SerializadorJSON<List<Tarea>>.Guardar(Tarea.rutaArchivo, Tarea.tareas);
-
-                    throw new Exception();
                 }
                 catch(Exception)
                 {

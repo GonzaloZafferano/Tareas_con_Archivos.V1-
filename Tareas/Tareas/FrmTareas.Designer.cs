@@ -203,7 +203,7 @@ namespace Tareas
             // 
             // menuOpciones
             // 
-            this.menuOpciones.BackColor = System.Drawing.Color.GreenYellow;
+            this.menuOpciones.BackColor = System.Drawing.Color.White;
             this.menuOpciones.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.menuOpciones.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuOpciones.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -649,7 +649,7 @@ namespace Tareas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightGreen;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1670, 856);
             this.Controls.Add(this.btnQuitarFiltro);
             this.Controls.Add(this.btnReestablecerOrden);

@@ -28,7 +28,8 @@ namespace Tareas
         private CancellationTokenSource tokenDeCancelacion;
         private VerificadorDeTareas verificadorDeTareas;
         private static Tema temaAplicacion;
-        private int indiceSeleccionadoDataGrid;
+        private int primerFilaVisible;
+        private int indiceDeFilaSeleccionada;
 
         public FrmTareas(Tema temaAplicacion)
         {
@@ -43,7 +44,8 @@ namespace Tareas
             this.tokenDeCancelacion = new CancellationTokenSource();
             this.verificadorDeTareas = new VerificadorDeTareas(this.tokenDeCancelacion);
 
-            this.indiceSeleccionadoDataGrid = 0;
+            this.primerFilaVisible = 0;
+            this.indiceDeFilaSeleccionada = 0;
 
             FrmTareas.temaAplicacion = temaAplicacion;
 
@@ -191,10 +193,11 @@ namespace Tareas
 
                 this.ColocarColoresEnDataGrid();
 
-                if(this.dtgvTareas.Rows.Count > 0 && this.indiceSeleccionadoDataGrid >= 0 && this.indiceSeleccionadoDataGrid < this.dtgvTareas.Rows.Count)
+                if(this.primerFilaVisible >= 0 && this.primerFilaVisible < this.dtgvTareas.Rows.Count &&
+                    this.indiceDeFilaSeleccionada >= 0 && this.indiceDeFilaSeleccionada < this.dtgvTareas.Rows.Count)
                 {
-                    this.dtgvTareas.FirstDisplayedScrollingRowIndex = this.indiceSeleccionadoDataGrid;
-                    this.dtgvTareas.Rows[indiceSeleccionadoDataGrid].Selected = true;
+                    this.dtgvTareas.FirstDisplayedScrollingRowIndex = this.primerFilaVisible;
+                    this.dtgvTareas.Rows[this.indiceDeFilaSeleccionada].Selected = true;
                 }
             }
         }
@@ -302,7 +305,8 @@ namespace Tareas
                         {
                             tarea.EliminarTarea();
 
-                            this.indiceSeleccionadoDataGrid = e.RowIndex -1;
+                            this.primerFilaVisible = dataGrid.FirstDisplayedScrollingRowIndex;
+                            this.indiceDeFilaSeleccionada = (dataGrid.Rows.Count - 1) == e.RowIndex ? e.RowIndex-1 : e.RowIndex;
 
                             this.OrganizarDataGrid();
                         }
@@ -320,8 +324,8 @@ namespace Tareas
                 if (dataGrid.Columns[e.ColumnIndex] is DataGridViewCheckBoxColumn &&
                     dataGrid.Rows[e.RowIndex].Cells[e.ColumnIndex] is DataGridViewCheckBoxCell)
                 {
-                    this.indiceSeleccionadoDataGrid = e.RowIndex;
-
+                    this.primerFilaVisible = dataGrid.FirstDisplayedScrollingRowIndex;
+                    this.indiceDeFilaSeleccionada = e.RowIndex;
 
                     Tarea tarea = dataGrid.Rows[e.RowIndex].DataBoundItem as Tarea;
 
@@ -349,8 +353,9 @@ namespace Tareas
 
                     if (tarea != null)
                     {
-                        this.indiceSeleccionadoDataGrid = e.RowIndex;
-                        
+                        this.primerFilaVisible = dataGrid.FirstDisplayedScrollingRowIndex;
+                        this.indiceDeFilaSeleccionada = e.RowIndex;
+
                         this.AbrirFormularioDesdeDataGrid(dataGrid, e, tarea);
                     }
                 }
@@ -403,7 +408,10 @@ namespace Tareas
             FrmAbrirTarea tareaNueva = new FrmAbrirTarea(tarea, false);
 
             tareaNueva.ShowDialog();
-            
+
+            this.primerFilaVisible = this.dtgvTareas.FirstDisplayedScrollingRowIndex;
+            this.indiceDeFilaSeleccionada = this.dtgvTareas.Rows.Count > 0 ? this.dtgvTareas.SelectedRows[0].Index : 0;
+
             this.OrganizarDataGrid();            
         }
 
@@ -482,7 +490,8 @@ namespace Tareas
         {
             if(this.verificadorDeTareas.TotalTareasPendientes > 0)
             {
-                this.indiceSeleccionadoDataGrid = 0;
+                this.primerFilaVisible = this.dtgvTareas.FirstDisplayedScrollingRowIndex;
+                this.indiceDeFilaSeleccionada = this.dtgvTareas.Rows.Count > 0 ? this.dtgvTareas.SelectedRows[0].Index : 0;
 
                 this.CerrarTodosLosFormulariosAbiertosEnLaLista(this.tareasPendientesAbiertas);
 
@@ -533,7 +542,8 @@ namespace Tareas
         {
             if(this.verificadorDeTareas.TotalTareasVencidas > 0)
             {
-                this.indiceSeleccionadoDataGrid = 0;
+                this.primerFilaVisible = this.dtgvTareas.FirstDisplayedScrollingRowIndex;
+                this.indiceDeFilaSeleccionada = this.dtgvTareas.Rows.Count > 0 ? this.dtgvTareas.SelectedRows[0].Index : 0;
 
                 this.CerrarTodosLosFormulariosAbiertosEnLaLista(this.tareasVencidasAbiertas);
 

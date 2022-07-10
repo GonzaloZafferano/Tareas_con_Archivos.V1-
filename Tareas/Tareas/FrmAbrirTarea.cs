@@ -278,8 +278,6 @@ namespace Tareas
 
         private void FrmAgregarTarea_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Tarea.OnMensajeError -= this.MostrarMensajeError;
-
             if (this.OnCerrarTarea != null)
             {
                 this.OnCerrarTarea.Invoke(this.tareaAuxiliar.IdTarea);
@@ -289,6 +287,8 @@ namespace Tareas
             {
                 this.OnRefrescarDataGrid.Invoke();
             }
+
+            Tarea.OnMensajeError -= this.MostrarMensajeError;
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
