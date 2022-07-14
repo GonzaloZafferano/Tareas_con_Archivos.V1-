@@ -51,104 +51,110 @@ namespace Tareas
             // lblAnio
             // 
             this.lblAnio.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblAnio.Location = new System.Drawing.Point(15, 15);
+            this.lblAnio.Location = new System.Drawing.Point(13, 11);
             this.lblAnio.Name = "lblAnio";
-            this.lblAnio.Size = new System.Drawing.Size(120, 30);
+            this.lblAnio.Size = new System.Drawing.Size(105, 22);
             this.lblAnio.TabIndex = 0;
             this.lblAnio.Text = "Año:";
             // 
             // txtAnio
             // 
             this.txtAnio.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtAnio.Location = new System.Drawing.Point(163, 11);
+            this.txtAnio.Location = new System.Drawing.Point(143, 8);
+            this.txtAnio.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtAnio.MaxLength = 4;
             this.txtAnio.Name = "txtAnio";
-            this.txtAnio.Size = new System.Drawing.Size(155, 34);
+            this.txtAnio.Size = new System.Drawing.Size(136, 29);
             this.txtAnio.TabIndex = 1;
             this.txtAnio.TextChanged += new System.EventHandler(this.txt_TextChanged);
             // 
             // txtDia
             // 
             this.txtDia.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtDia.Location = new System.Drawing.Point(163, 111);
+            this.txtDia.Location = new System.Drawing.Point(143, 83);
+            this.txtDia.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtDia.MaxLength = 2;
             this.txtDia.Name = "txtDia";
-            this.txtDia.Size = new System.Drawing.Size(155, 34);
+            this.txtDia.Size = new System.Drawing.Size(136, 29);
             this.txtDia.TabIndex = 3;
             this.txtDia.TextChanged += new System.EventHandler(this.txt_TextChanged);
             // 
             // lblDia
             // 
             this.lblDia.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblDia.Location = new System.Drawing.Point(15, 114);
+            this.lblDia.Location = new System.Drawing.Point(13, 86);
             this.lblDia.Name = "lblDia";
-            this.lblDia.Size = new System.Drawing.Size(120, 30);
+            this.lblDia.Size = new System.Drawing.Size(105, 22);
             this.lblDia.TabIndex = 2;
             this.lblDia.Text = "Día:";
             // 
             // txtMes
             // 
             this.txtMes.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtMes.Location = new System.Drawing.Point(163, 62);
+            this.txtMes.Location = new System.Drawing.Point(143, 46);
+            this.txtMes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtMes.MaxLength = 2;
             this.txtMes.Name = "txtMes";
-            this.txtMes.Size = new System.Drawing.Size(155, 34);
+            this.txtMes.Size = new System.Drawing.Size(136, 29);
             this.txtMes.TabIndex = 5;
             this.txtMes.TextChanged += new System.EventHandler(this.txt_TextChanged);
             // 
             // lblMes
             // 
             this.lblMes.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblMes.Location = new System.Drawing.Point(15, 65);
+            this.lblMes.Location = new System.Drawing.Point(13, 49);
             this.lblMes.Name = "lblMes";
-            this.lblMes.Size = new System.Drawing.Size(120, 30);
+            this.lblMes.Size = new System.Drawing.Size(105, 22);
             this.lblMes.TabIndex = 4;
             this.lblMes.Text = "Mes:";
             // 
             // txtHora
             // 
             this.txtHora.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtHora.Location = new System.Drawing.Point(163, 162);
+            this.txtHora.Location = new System.Drawing.Point(143, 122);
+            this.txtHora.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtHora.MaxLength = 2;
             this.txtHora.Name = "txtHora";
-            this.txtHora.Size = new System.Drawing.Size(155, 34);
+            this.txtHora.Size = new System.Drawing.Size(136, 29);
             this.txtHora.TabIndex = 7;
             this.txtHora.TextChanged += new System.EventHandler(this.txt_TextChanged);
             // 
             // lblHora
             // 
             this.lblHora.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblHora.Location = new System.Drawing.Point(15, 165);
+            this.lblHora.Location = new System.Drawing.Point(13, 124);
             this.lblHora.Name = "lblHora";
-            this.lblHora.Size = new System.Drawing.Size(120, 30);
+            this.lblHora.Size = new System.Drawing.Size(105, 22);
             this.lblHora.TabIndex = 6;
             this.lblHora.Text = "Hora:";
             // 
             // txtMinutos
             // 
             this.txtMinutos.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtMinutos.Location = new System.Drawing.Point(163, 209);
+            this.txtMinutos.Location = new System.Drawing.Point(143, 157);
+            this.txtMinutos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtMinutos.MaxLength = 2;
             this.txtMinutos.Name = "txtMinutos";
-            this.txtMinutos.Size = new System.Drawing.Size(155, 34);
+            this.txtMinutos.Size = new System.Drawing.Size(136, 29);
             this.txtMinutos.TabIndex = 9;
             this.txtMinutos.TextChanged += new System.EventHandler(this.txt_TextChanged);
             // 
             // lblMinutos
             // 
             this.lblMinutos.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblMinutos.Location = new System.Drawing.Point(15, 212);
+            this.lblMinutos.Location = new System.Drawing.Point(13, 159);
             this.lblMinutos.Name = "lblMinutos";
-            this.lblMinutos.Size = new System.Drawing.Size(120, 30);
+            this.lblMinutos.Size = new System.Drawing.Size(105, 22);
             this.lblMinutos.TabIndex = 8;
             this.lblMinutos.Text = "Minutos:";
             // 
             // btnAceptar
             // 
             this.btnAceptar.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAceptar.Location = new System.Drawing.Point(399, 342);
+            this.btnAceptar.Location = new System.Drawing.Point(349, 256);
+            this.btnAceptar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(170, 40);
+            this.btnAceptar.Size = new System.Drawing.Size(149, 30);
             this.btnAceptar.TabIndex = 10;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
@@ -157,9 +163,10 @@ namespace Tareas
             // btnCancelar
             // 
             this.btnCancelar.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCancelar.Location = new System.Drawing.Point(12, 342);
+            this.btnCancelar.Location = new System.Drawing.Point(10, 256);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(170, 40);
+            this.btnCancelar.Size = new System.Drawing.Size(149, 30);
             this.btnCancelar.TabIndex = 11;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -168,9 +175,10 @@ namespace Tareas
             // btnQuitarFecha
             // 
             this.btnQuitarFecha.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnQuitarFecha.Location = new System.Drawing.Point(205, 342);
+            this.btnQuitarFecha.Location = new System.Drawing.Point(179, 256);
+            this.btnQuitarFecha.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnQuitarFecha.Name = "btnQuitarFecha";
-            this.btnQuitarFecha.Size = new System.Drawing.Size(170, 40);
+            this.btnQuitarFecha.Size = new System.Drawing.Size(149, 30);
             this.btnQuitarFecha.TabIndex = 13;
             this.btnQuitarFecha.Text = "Quitar fecha";
             this.btnQuitarFecha.UseVisualStyleBackColor = true;
@@ -179,9 +187,10 @@ namespace Tareas
             // btnLimpiarCampos
             // 
             this.btnLimpiarCampos.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnLimpiarCampos.Location = new System.Drawing.Point(349, 58);
+            this.btnLimpiarCampos.Location = new System.Drawing.Point(305, 44);
+            this.btnLimpiarCampos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLimpiarCampos.Name = "btnLimpiarCampos";
-            this.btnLimpiarCampos.Size = new System.Drawing.Size(220, 40);
+            this.btnLimpiarCampos.Size = new System.Drawing.Size(192, 30);
             this.btnLimpiarCampos.TabIndex = 14;
             this.btnLimpiarCampos.Text = "Limpiar";
             this.btnLimpiarCampos.UseVisualStyleBackColor = true;
@@ -189,7 +198,8 @@ namespace Tareas
             // 
             // calendario
             // 
-            this.calendario.Location = new System.Drawing.Point(349, 114);
+            this.calendario.Location = new System.Drawing.Point(305, 86);
+            this.calendario.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.calendario.Name = "calendario";
             this.calendario.TabIndex = 16;
             this.calendario.TabStop = false;
@@ -198,9 +208,10 @@ namespace Tareas
             // btnHoy
             // 
             this.btnHoy.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnHoy.Location = new System.Drawing.Point(349, 7);
+            this.btnHoy.Location = new System.Drawing.Point(305, 5);
+            this.btnHoy.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnHoy.Name = "btnHoy";
-            this.btnHoy.Size = new System.Drawing.Size(220, 40);
+            this.btnHoy.Size = new System.Drawing.Size(192, 30);
             this.btnHoy.TabIndex = 17;
             this.btnHoy.Text = "Ahora";
             this.btnHoy.UseVisualStyleBackColor = true;
@@ -208,9 +219,9 @@ namespace Tareas
             // 
             // FrmCargarFecha
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(587, 396);
+            this.ClientSize = new System.Drawing.Size(514, 297);
             this.Controls.Add(this.btnHoy);
             this.Controls.Add(this.calendario);
             this.Controls.Add(this.btnLimpiarCampos);
@@ -229,8 +240,8 @@ namespace Tareas
             this.Controls.Add(this.lblAnio);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "FrmCargarFecha";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.FrmAgregarFecha_Load);

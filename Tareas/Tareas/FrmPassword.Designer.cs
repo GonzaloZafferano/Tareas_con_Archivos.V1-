@@ -44,47 +44,50 @@ namespace Tareas
             // txtPasswordNueva
             // 
             this.txtPasswordNueva.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtPasswordNueva.Location = new System.Drawing.Point(371, 63);
+            this.txtPasswordNueva.Location = new System.Drawing.Point(325, 47);
+            this.txtPasswordNueva.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPasswordNueva.MaxLength = 12;
             this.txtPasswordNueva.Name = "txtPasswordNueva";
             this.txtPasswordNueva.PasswordChar = '*';
-            this.txtPasswordNueva.Size = new System.Drawing.Size(298, 34);
+            this.txtPasswordNueva.Size = new System.Drawing.Size(261, 29);
             this.txtPasswordNueva.TabIndex = 1;
             // 
             // txtConfirmarPasswordNueva
             // 
             this.txtConfirmarPasswordNueva.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtConfirmarPasswordNueva.Location = new System.Drawing.Point(371, 121);
+            this.txtConfirmarPasswordNueva.Location = new System.Drawing.Point(325, 91);
+            this.txtConfirmarPasswordNueva.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtConfirmarPasswordNueva.MaxLength = 12;
             this.txtConfirmarPasswordNueva.Name = "txtConfirmarPasswordNueva";
             this.txtConfirmarPasswordNueva.PasswordChar = '*';
-            this.txtConfirmarPasswordNueva.Size = new System.Drawing.Size(298, 34);
+            this.txtConfirmarPasswordNueva.Size = new System.Drawing.Size(261, 29);
             this.txtConfirmarPasswordNueva.TabIndex = 2;
             // 
             // lblIngresePasswordNueva
             // 
             this.lblIngresePasswordNueva.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblIngresePasswordNueva.Location = new System.Drawing.Point(12, 66);
+            this.lblIngresePasswordNueva.Location = new System.Drawing.Point(10, 50);
             this.lblIngresePasswordNueva.Name = "lblIngresePasswordNueva";
-            this.lblIngresePasswordNueva.Size = new System.Drawing.Size(340, 35);
+            this.lblIngresePasswordNueva.Size = new System.Drawing.Size(298, 26);
             this.lblIngresePasswordNueva.TabIndex = 3;
             this.lblIngresePasswordNueva.Text = "Ingrese nueva contraseña:";
             // 
             // lblReingresePasswordNueva
             // 
             this.lblReingresePasswordNueva.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblReingresePasswordNueva.Location = new System.Drawing.Point(12, 124);
+            this.lblReingresePasswordNueva.Location = new System.Drawing.Point(10, 93);
             this.lblReingresePasswordNueva.Name = "lblReingresePasswordNueva";
-            this.lblReingresePasswordNueva.Size = new System.Drawing.Size(340, 35);
+            this.lblReingresePasswordNueva.Size = new System.Drawing.Size(298, 26);
             this.lblReingresePasswordNueva.TabIndex = 4;
             this.lblReingresePasswordNueva.Text = "Confirme nueva contraseña:";
             // 
             // btnAceptar
             // 
             this.btnAceptar.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAceptar.Location = new System.Drawing.Point(486, 188);
+            this.btnAceptar.Location = new System.Drawing.Point(425, 141);
+            this.btnAceptar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(183, 72);
+            this.btnAceptar.Size = new System.Drawing.Size(160, 54);
             this.btnAceptar.TabIndex = 5;
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
@@ -92,9 +95,10 @@ namespace Tareas
             // btnCancelar
             // 
             this.btnCancelar.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCancelar.Location = new System.Drawing.Point(12, 188);
+            this.btnCancelar.Location = new System.Drawing.Point(10, 141);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(183, 72);
+            this.btnCancelar.Size = new System.Drawing.Size(160, 54);
             this.btnCancelar.TabIndex = 6;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -103,9 +107,10 @@ namespace Tareas
             // btnRemoverPassword
             // 
             this.btnRemoverPassword.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnRemoverPassword.Location = new System.Drawing.Point(230, 188);
+            this.btnRemoverPassword.Location = new System.Drawing.Point(201, 141);
+            this.btnRemoverPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRemoverPassword.Name = "btnRemoverPassword";
-            this.btnRemoverPassword.Size = new System.Drawing.Size(216, 72);
+            this.btnRemoverPassword.Size = new System.Drawing.Size(189, 54);
             this.btnRemoverPassword.TabIndex = 7;
             this.btnRemoverPassword.Text = "Remover Contraseña";
             this.btnRemoverPassword.UseVisualStyleBackColor = true;
@@ -114,26 +119,27 @@ namespace Tareas
             // lblIngresePasswordActual
             // 
             this.lblIngresePasswordActual.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblIngresePasswordActual.Location = new System.Drawing.Point(12, 9);
+            this.lblIngresePasswordActual.Location = new System.Drawing.Point(10, 7);
             this.lblIngresePasswordActual.Name = "lblIngresePasswordActual";
-            this.lblIngresePasswordActual.Size = new System.Drawing.Size(340, 35);
+            this.lblIngresePasswordActual.Size = new System.Drawing.Size(298, 26);
             this.lblIngresePasswordActual.TabIndex = 9;
             // 
             // txtPasswordActual
             // 
             this.txtPasswordActual.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtPasswordActual.Location = new System.Drawing.Point(371, 6);
+            this.txtPasswordActual.Location = new System.Drawing.Point(325, 4);
+            this.txtPasswordActual.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPasswordActual.MaxLength = 12;
             this.txtPasswordActual.Name = "txtPasswordActual";
             this.txtPasswordActual.PasswordChar = '*';
-            this.txtPasswordActual.Size = new System.Drawing.Size(298, 34);
+            this.txtPasswordActual.Size = new System.Drawing.Size(261, 29);
             this.txtPasswordActual.TabIndex = 8;
             // 
             // FrmPassword
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(689, 279);
+            this.ClientSize = new System.Drawing.Size(603, 209);
             this.Controls.Add(this.lblIngresePasswordActual);
             this.Controls.Add(this.txtPasswordActual);
             this.Controls.Add(this.btnRemoverPassword);
@@ -145,8 +151,8 @@ namespace Tareas
             this.Controls.Add(this.txtPasswordNueva);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "FrmPassword";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.FrmPassword_Load);

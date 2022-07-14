@@ -121,7 +121,8 @@ namespace Tareas
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dtgvTareas.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dtgvTareas.Location = new System.Drawing.Point(11, 49);
+            this.dtgvTareas.Location = new System.Drawing.Point(10, 37);
+            this.dtgvTareas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtgvTareas.MultiSelect = false;
             this.dtgvTareas.Name = "dtgvTareas";
             this.dtgvTareas.RowHeadersVisible = false;
@@ -130,7 +131,7 @@ namespace Tareas
             this.dtgvTareas.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dtgvTareas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dtgvTareas.ShowEditingIcon = false;
-            this.dtgvTareas.Size = new System.Drawing.Size(1375, 795);
+            this.dtgvTareas.Size = new System.Drawing.Size(1203, 596);
             this.dtgvTareas.TabIndex = 0;
             this.dtgvTareas.TabStop = false;
             this.dtgvTareas.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvTareas_CellClick);
@@ -141,9 +142,10 @@ namespace Tareas
             // 
             this.btnAgregarTema.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btnAgregarTema.Font = new System.Drawing.Font("Arial", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAgregarTema.Location = new System.Drawing.Point(1583, 47);
+            this.btnAgregarTema.Location = new System.Drawing.Point(1385, 35);
+            this.btnAgregarTema.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAgregarTema.Name = "btnAgregarTema";
-            this.btnAgregarTema.Size = new System.Drawing.Size(75, 52);
+            this.btnAgregarTema.Size = new System.Drawing.Size(66, 39);
             this.btnAgregarTema.TabIndex = 0;
             this.btnAgregarTema.Text = "+";
             this.btnAgregarTema.UseVisualStyleBackColor = true;
@@ -153,9 +155,10 @@ namespace Tareas
             // 
             this.btnTareasVencidas.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btnTareasVencidas.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnTareasVencidas.Location = new System.Drawing.Point(1401, 337);
+            this.btnTareasVencidas.Location = new System.Drawing.Point(1226, 253);
+            this.btnTareasVencidas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTareasVencidas.Name = "btnTareasVencidas";
-            this.btnTareasVencidas.Size = new System.Drawing.Size(261, 51);
+            this.btnTareasVencidas.Size = new System.Drawing.Size(228, 38);
             this.btnTareasVencidas.TabIndex = 2;
             this.btnTareasVencidas.TabStop = false;
             this.btnTareasVencidas.Text = "0 Vencidas";
@@ -166,9 +169,10 @@ namespace Tareas
             // 
             this.btnCerrarTareasVencidas.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btnCerrarTareasVencidas.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCerrarTareasVencidas.Location = new System.Drawing.Point(1401, 393);
+            this.btnCerrarTareasVencidas.Location = new System.Drawing.Point(1226, 295);
+            this.btnCerrarTareasVencidas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCerrarTareasVencidas.Name = "btnCerrarTareasVencidas";
-            this.btnCerrarTareasVencidas.Size = new System.Drawing.Size(261, 73);
+            this.btnCerrarTareasVencidas.Size = new System.Drawing.Size(228, 55);
             this.btnCerrarTareasVencidas.TabIndex = 3;
             this.btnCerrarTareasVencidas.TabStop = false;
             this.btnCerrarTareasVencidas.Text = "Cerrar tareas vencidas";
@@ -179,9 +183,10 @@ namespace Tareas
             // 
             this.btnTareasPendientes.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btnTareasPendientes.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnTareasPendientes.Location = new System.Drawing.Point(1401, 472);
+            this.btnTareasPendientes.Location = new System.Drawing.Point(1226, 354);
+            this.btnTareasPendientes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTareasPendientes.Name = "btnTareasPendientes";
-            this.btnTareasPendientes.Size = new System.Drawing.Size(261, 51);
+            this.btnTareasPendientes.Size = new System.Drawing.Size(228, 38);
             this.btnTareasPendientes.TabIndex = 4;
             this.btnTareasPendientes.TabStop = false;
             this.btnTareasPendientes.Text = "0 Pendientes";
@@ -192,9 +197,10 @@ namespace Tareas
             // 
             this.btnCerrarTareasPendientes.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btnCerrarTareasPendientes.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCerrarTareasPendientes.Location = new System.Drawing.Point(1401, 528);
+            this.btnCerrarTareasPendientes.Location = new System.Drawing.Point(1226, 396);
+            this.btnCerrarTareasPendientes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCerrarTareasPendientes.Name = "btnCerrarTareasPendientes";
-            this.btnCerrarTareasPendientes.Size = new System.Drawing.Size(261, 72);
+            this.btnCerrarTareasPendientes.Size = new System.Drawing.Size(228, 54);
             this.btnCerrarTareasPendientes.TabIndex = 5;
             this.btnCerrarTareasPendientes.TabStop = false;
             this.btnCerrarTareasPendientes.Text = "Cerrar tareas pendientes";
@@ -215,22 +221,22 @@ namespace Tareas
             this.btnTema});
             this.menuOpciones.Location = new System.Drawing.Point(0, 0);
             this.menuOpciones.Name = "menuOpciones";
-            this.menuOpciones.Padding = new System.Windows.Forms.Padding(6, 3, 0, 3);
-            this.menuOpciones.Size = new System.Drawing.Size(1670, 34);
+            this.menuOpciones.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this.menuOpciones.Size = new System.Drawing.Size(1461, 27);
             this.menuOpciones.TabIndex = 7;
             this.menuOpciones.Text = "menuStrip1";
             // 
             // agregarTareaToolStripMenuItem
             // 
             this.agregarTareaToolStripMenuItem.Name = "agregarTareaToolStripMenuItem";
-            this.agregarTareaToolStripMenuItem.Size = new System.Drawing.Size(153, 28);
+            this.agregarTareaToolStripMenuItem.Size = new System.Drawing.Size(124, 23);
             this.agregarTareaToolStripMenuItem.Text = "Agregar tarea";
             this.agregarTareaToolStripMenuItem.Click += new System.EventHandler(this.btnAgregarTarea);
             // 
             // eliminarTodasLasTareasToolStripMenuItem
             // 
             this.eliminarTodasLasTareasToolStripMenuItem.Name = "eliminarTodasLasTareasToolStripMenuItem";
-            this.eliminarTodasLasTareasToolStripMenuItem.Size = new System.Drawing.Size(257, 28);
+            this.eliminarTodasLasTareasToolStripMenuItem.Size = new System.Drawing.Size(207, 23);
             this.eliminarTodasLasTareasToolStripMenuItem.Text = "Eliminar todas las tareas";
             this.eliminarTodasLasTareasToolStripMenuItem.Click += new System.EventHandler(this.eliminarTodasLasTareasToolStripMenuItem_Click);
             // 
@@ -242,7 +248,7 @@ namespace Tareas
             this.btnOrdenarPorEstado,
             this.btnOrdenarPorCreacion});
             this.btnOrdenar.Name = "btnOrdenar";
-            this.btnOrdenar.Size = new System.Drawing.Size(167, 28);
+            this.btnOrdenar.Size = new System.Drawing.Size(134, 23);
             this.btnOrdenar.Text = "Ordenar tareas";
             // 
             // btnOrdenarPorFecha
@@ -253,34 +259,34 @@ namespace Tareas
             this.btnOrdenarPorFechaInicialMayorAMenor,
             this.btnOrdenarPorFechaInicialMenorAMayor});
             this.btnOrdenarPorFecha.Name = "btnOrdenarPorFecha";
-            this.btnOrdenarPorFecha.Size = new System.Drawing.Size(433, 28);
+            this.btnOrdenarPorFecha.Size = new System.Drawing.Size(348, 24);
             this.btnOrdenarPorFecha.Text = "Por Fecha";
             // 
             // btnOrdenarPorFechaFinalMayorAMenor
             // 
             this.btnOrdenarPorFechaFinalMayorAMenor.Name = "btnOrdenarPorFechaFinalMayorAMenor";
-            this.btnOrdenarPorFechaFinalMayorAMenor.Size = new System.Drawing.Size(366, 28);
+            this.btnOrdenarPorFechaFinalMayorAMenor.Size = new System.Drawing.Size(295, 24);
             this.btnOrdenarPorFechaFinalMayorAMenor.Text = "Fecha Final: Mayor a Menor";
             this.btnOrdenarPorFechaFinalMayorAMenor.Click += new System.EventHandler(this.OrdenarTareas);
             // 
             // btnOrdenarPorFechaFinalMenorAMayor
             // 
             this.btnOrdenarPorFechaFinalMenorAMayor.Name = "btnOrdenarPorFechaFinalMenorAMayor";
-            this.btnOrdenarPorFechaFinalMenorAMayor.Size = new System.Drawing.Size(366, 28);
+            this.btnOrdenarPorFechaFinalMenorAMayor.Size = new System.Drawing.Size(295, 24);
             this.btnOrdenarPorFechaFinalMenorAMayor.Text = "Fecha Final: Menor a Mayor";
             this.btnOrdenarPorFechaFinalMenorAMayor.Click += new System.EventHandler(this.OrdenarTareas);
             // 
             // btnOrdenarPorFechaInicialMayorAMenor
             // 
             this.btnOrdenarPorFechaInicialMayorAMenor.Name = "btnOrdenarPorFechaInicialMayorAMenor";
-            this.btnOrdenarPorFechaInicialMayorAMenor.Size = new System.Drawing.Size(366, 28);
+            this.btnOrdenarPorFechaInicialMayorAMenor.Size = new System.Drawing.Size(295, 24);
             this.btnOrdenarPorFechaInicialMayorAMenor.Text = "Fecha Inicial: Mayor a Menor";
             this.btnOrdenarPorFechaInicialMayorAMenor.Click += new System.EventHandler(this.OrdenarTareas);
             // 
             // btnOrdenarPorFechaInicialMenorAMayor
             // 
             this.btnOrdenarPorFechaInicialMenorAMayor.Name = "btnOrdenarPorFechaInicialMenorAMayor";
-            this.btnOrdenarPorFechaInicialMenorAMayor.Size = new System.Drawing.Size(366, 28);
+            this.btnOrdenarPorFechaInicialMenorAMayor.Size = new System.Drawing.Size(295, 24);
             this.btnOrdenarPorFechaInicialMenorAMayor.Text = "Fecha Inicial: Menor a Mayor";
             this.btnOrdenarPorFechaInicialMenorAMayor.Click += new System.EventHandler(this.OrdenarTareas);
             // 
@@ -291,27 +297,27 @@ namespace Tareas
             this.btnOrdenarPorPrioridadMAB,
             this.btnOrdenarPorPrioridadBMA});
             this.btnOrdenarPorPrioridad.Name = "btnOrdenarPorPrioridad";
-            this.btnOrdenarPorPrioridad.Size = new System.Drawing.Size(433, 28);
+            this.btnOrdenarPorPrioridad.Size = new System.Drawing.Size(348, 24);
             this.btnOrdenarPorPrioridad.Text = "Por Prioridad";
             // 
             // btnOrdenarPorPrioridadAMB
             // 
             this.btnOrdenarPorPrioridadAMB.Name = "btnOrdenarPorPrioridadAMB";
-            this.btnOrdenarPorPrioridadAMB.Size = new System.Drawing.Size(265, 28);
+            this.btnOrdenarPorPrioridadAMB.Size = new System.Drawing.Size(212, 24);
             this.btnOrdenarPorPrioridadAMB.Text = "Alta - Media - Baja";
             this.btnOrdenarPorPrioridadAMB.Click += new System.EventHandler(this.OrdenarTareas);
             // 
             // btnOrdenarPorPrioridadMAB
             // 
             this.btnOrdenarPorPrioridadMAB.Name = "btnOrdenarPorPrioridadMAB";
-            this.btnOrdenarPorPrioridadMAB.Size = new System.Drawing.Size(265, 28);
+            this.btnOrdenarPorPrioridadMAB.Size = new System.Drawing.Size(212, 24);
             this.btnOrdenarPorPrioridadMAB.Text = "Media - Alta - Baja";
             this.btnOrdenarPorPrioridadMAB.Click += new System.EventHandler(this.OrdenarTareas);
             // 
             // btnOrdenarPorPrioridadBMA
             // 
             this.btnOrdenarPorPrioridadBMA.Name = "btnOrdenarPorPrioridadBMA";
-            this.btnOrdenarPorPrioridadBMA.Size = new System.Drawing.Size(265, 28);
+            this.btnOrdenarPorPrioridadBMA.Size = new System.Drawing.Size(212, 24);
             this.btnOrdenarPorPrioridadBMA.Text = "Baja - Media - Alta";
             this.btnOrdenarPorPrioridadBMA.Click += new System.EventHandler(this.OrdenarTareas);
             // 
@@ -322,27 +328,27 @@ namespace Tareas
             this.btnOrdenarPorEstadoProceso_Pendiente_Finalizado,
             this.btnOrdenarPorEstadoPendiente_Proceso_Finalizado});
             this.btnOrdenarPorEstado.Name = "btnOrdenarPorEstado";
-            this.btnOrdenarPorEstado.Size = new System.Drawing.Size(433, 28);
+            this.btnOrdenarPorEstado.Size = new System.Drawing.Size(348, 24);
             this.btnOrdenarPorEstado.Text = "Por Estado";
             // 
             // btnOrdenarPorEstadoFinalizado_Proceso_Pendiente
             // 
             this.btnOrdenarPorEstadoFinalizado_Proceso_Pendiente.Name = "btnOrdenarPorEstadoFinalizado_Proceso_Pendiente";
-            this.btnOrdenarPorEstadoFinalizado_Proceso_Pendiente.Size = new System.Drawing.Size(399, 28);
+            this.btnOrdenarPorEstadoFinalizado_Proceso_Pendiente.Size = new System.Drawing.Size(324, 24);
             this.btnOrdenarPorEstadoFinalizado_Proceso_Pendiente.Text = "Finalizado - Proceso - Pendiente";
             this.btnOrdenarPorEstadoFinalizado_Proceso_Pendiente.Click += new System.EventHandler(this.OrdenarTareas);
             // 
             // btnOrdenarPorEstadoProceso_Pendiente_Finalizado
             // 
             this.btnOrdenarPorEstadoProceso_Pendiente_Finalizado.Name = "btnOrdenarPorEstadoProceso_Pendiente_Finalizado";
-            this.btnOrdenarPorEstadoProceso_Pendiente_Finalizado.Size = new System.Drawing.Size(399, 28);
+            this.btnOrdenarPorEstadoProceso_Pendiente_Finalizado.Size = new System.Drawing.Size(324, 24);
             this.btnOrdenarPorEstadoProceso_Pendiente_Finalizado.Text = "Proceso - Pendiente - Finalizado";
             this.btnOrdenarPorEstadoProceso_Pendiente_Finalizado.Click += new System.EventHandler(this.OrdenarTareas);
             // 
             // btnOrdenarPorEstadoPendiente_Proceso_Finalizado
             // 
             this.btnOrdenarPorEstadoPendiente_Proceso_Finalizado.Name = "btnOrdenarPorEstadoPendiente_Proceso_Finalizado";
-            this.btnOrdenarPorEstadoPendiente_Proceso_Finalizado.Size = new System.Drawing.Size(399, 28);
+            this.btnOrdenarPorEstadoPendiente_Proceso_Finalizado.Size = new System.Drawing.Size(324, 24);
             this.btnOrdenarPorEstadoPendiente_Proceso_Finalizado.Text = "Pendiente - Proceso - Finalizado";
             this.btnOrdenarPorEstadoPendiente_Proceso_Finalizado.Click += new System.EventHandler(this.OrdenarTareas);
             // 
@@ -352,20 +358,20 @@ namespace Tareas
             this.btnOrdenarPorCreacionUltimaAPrimera,
             this.btnOrdenarPorCreacionPrimeraAUltima});
             this.btnOrdenarPorCreacion.Name = "btnOrdenarPorCreacion";
-            this.btnOrdenarPorCreacion.Size = new System.Drawing.Size(433, 28);
+            this.btnOrdenarPorCreacion.Size = new System.Drawing.Size(348, 24);
             this.btnOrdenarPorCreacion.Text = "Por orden de creación (por defecto)";
             // 
             // btnOrdenarPorCreacionUltimaAPrimera
             // 
             this.btnOrdenarPorCreacionUltimaAPrimera.Name = "btnOrdenarPorCreacionUltimaAPrimera";
-            this.btnOrdenarPorCreacionUltimaAPrimera.Size = new System.Drawing.Size(376, 28);
+            this.btnOrdenarPorCreacionUltimaAPrimera.Size = new System.Drawing.Size(301, 24);
             this.btnOrdenarPorCreacionUltimaAPrimera.Text = "Ultima a primera";
             this.btnOrdenarPorCreacionUltimaAPrimera.Click += new System.EventHandler(this.OrdenarTareas);
             // 
             // btnOrdenarPorCreacionPrimeraAUltima
             // 
             this.btnOrdenarPorCreacionPrimeraAUltima.Name = "btnOrdenarPorCreacionPrimeraAUltima";
-            this.btnOrdenarPorCreacionPrimeraAUltima.Size = new System.Drawing.Size(376, 28);
+            this.btnOrdenarPorCreacionPrimeraAUltima.Size = new System.Drawing.Size(301, 24);
             this.btnOrdenarPorCreacionPrimeraAUltima.Text = "Primera a ultima (por defecto)";
             this.btnOrdenarPorCreacionPrimeraAUltima.Click += new System.EventHandler(this.OrdenarTareas);
             // 
@@ -378,7 +384,7 @@ namespace Tareas
             this.btnFiltrarPorRecordatorio,
             this.btnSinFiltro});
             this.btnFiltrarTareas.Name = "btnFiltrarTareas";
-            this.btnFiltrarTareas.Size = new System.Drawing.Size(145, 28);
+            this.btnFiltrarTareas.Size = new System.Drawing.Size(116, 23);
             this.btnFiltrarTareas.Text = "Filtrar tareas";
             // 
             // btnFiltrarPorEstado
@@ -388,27 +394,27 @@ namespace Tareas
             this.btnFiltrarProceso,
             this.btnFiltrarFinalizado});
             this.btnFiltrarPorEstado.Name = "btnFiltrarPorEstado";
-            this.btnFiltrarPorEstado.Size = new System.Drawing.Size(256, 28);
+            this.btnFiltrarPorEstado.Size = new System.Drawing.Size(209, 24);
             this.btnFiltrarPorEstado.Text = "Por Estado";
             // 
             // btnFiltrarPendiente
             // 
             this.btnFiltrarPendiente.Name = "btnFiltrarPendiente";
-            this.btnFiltrarPendiente.Size = new System.Drawing.Size(189, 28);
+            this.btnFiltrarPendiente.Size = new System.Drawing.Size(157, 24);
             this.btnFiltrarPendiente.Text = "Pendiente";
             this.btnFiltrarPendiente.Click += new System.EventHandler(this.FiltrarTareas);
             // 
             // btnFiltrarProceso
             // 
             this.btnFiltrarProceso.Name = "btnFiltrarProceso";
-            this.btnFiltrarProceso.Size = new System.Drawing.Size(189, 28);
+            this.btnFiltrarProceso.Size = new System.Drawing.Size(157, 24);
             this.btnFiltrarProceso.Text = "Proceso";
             this.btnFiltrarProceso.Click += new System.EventHandler(this.FiltrarTareas);
             // 
             // btnFiltrarFinalizado
             // 
             this.btnFiltrarFinalizado.Name = "btnFiltrarFinalizado";
-            this.btnFiltrarFinalizado.Size = new System.Drawing.Size(189, 28);
+            this.btnFiltrarFinalizado.Size = new System.Drawing.Size(157, 24);
             this.btnFiltrarFinalizado.Text = "Finalizado";
             this.btnFiltrarFinalizado.Click += new System.EventHandler(this.FiltrarTareas);
             // 
@@ -419,27 +425,27 @@ namespace Tareas
             this.btnFiltrarPrioridadMedia,
             this.btnFiltrarPrioridadBaja});
             this.btnFiltrarPorPrioridad.Name = "btnFiltrarPorPrioridad";
-            this.btnFiltrarPorPrioridad.Size = new System.Drawing.Size(256, 28);
+            this.btnFiltrarPorPrioridad.Size = new System.Drawing.Size(209, 24);
             this.btnFiltrarPorPrioridad.Text = "Por Prioridad";
             // 
             // btnFiltrarPrioridadAlta
             // 
             this.btnFiltrarPrioridadAlta.Name = "btnFiltrarPrioridadAlta";
-            this.btnFiltrarPrioridadAlta.Size = new System.Drawing.Size(150, 28);
+            this.btnFiltrarPrioridadAlta.Size = new System.Drawing.Size(123, 24);
             this.btnFiltrarPrioridadAlta.Text = "Alta";
             this.btnFiltrarPrioridadAlta.Click += new System.EventHandler(this.FiltrarTareas);
             // 
             // btnFiltrarPrioridadMedia
             // 
             this.btnFiltrarPrioridadMedia.Name = "btnFiltrarPrioridadMedia";
-            this.btnFiltrarPrioridadMedia.Size = new System.Drawing.Size(150, 28);
+            this.btnFiltrarPrioridadMedia.Size = new System.Drawing.Size(123, 24);
             this.btnFiltrarPrioridadMedia.Text = "Media";
             this.btnFiltrarPrioridadMedia.Click += new System.EventHandler(this.FiltrarTareas);
             // 
             // btnFiltrarPrioridadBaja
             // 
             this.btnFiltrarPrioridadBaja.Name = "btnFiltrarPrioridadBaja";
-            this.btnFiltrarPrioridadBaja.Size = new System.Drawing.Size(150, 28);
+            this.btnFiltrarPrioridadBaja.Size = new System.Drawing.Size(123, 24);
             this.btnFiltrarPrioridadBaja.Text = "Baja";
             this.btnFiltrarPrioridadBaja.Click += new System.EventHandler(this.FiltrarTareas);
             // 
@@ -451,34 +457,34 @@ namespace Tareas
             this.btnFiltrarFechaInicialTiene,
             this.btnFiltrarFechaInicialNoTiene});
             this.btnFiltrarPorFecha.Name = "btnFiltrarPorFecha";
-            this.btnFiltrarPorFecha.Size = new System.Drawing.Size(256, 28);
+            this.btnFiltrarPorFecha.Size = new System.Drawing.Size(209, 24);
             this.btnFiltrarPorFecha.Text = "Por Fecha";
             // 
             // btnFiltrarFechaFinalTiene
             // 
             this.btnFiltrarFechaFinalTiene.Name = "btnFiltrarFechaFinalTiene";
-            this.btnFiltrarFechaFinalTiene.Size = new System.Drawing.Size(308, 28);
+            this.btnFiltrarFechaFinalTiene.Size = new System.Drawing.Size(251, 24);
             this.btnFiltrarFechaFinalTiene.Text = "Fecha Final: Tiene";
             this.btnFiltrarFechaFinalTiene.Click += new System.EventHandler(this.FiltrarTareas);
             // 
             // btnFiltrarFechaFinalNoTiene
             // 
             this.btnFiltrarFechaFinalNoTiene.Name = "btnFiltrarFechaFinalNoTiene";
-            this.btnFiltrarFechaFinalNoTiene.Size = new System.Drawing.Size(308, 28);
+            this.btnFiltrarFechaFinalNoTiene.Size = new System.Drawing.Size(251, 24);
             this.btnFiltrarFechaFinalNoTiene.Text = "Fecha Final: No Tiene";
             this.btnFiltrarFechaFinalNoTiene.Click += new System.EventHandler(this.FiltrarTareas);
             // 
             // btnFiltrarFechaInicialTiene
             // 
             this.btnFiltrarFechaInicialTiene.Name = "btnFiltrarFechaInicialTiene";
-            this.btnFiltrarFechaInicialTiene.Size = new System.Drawing.Size(308, 28);
+            this.btnFiltrarFechaInicialTiene.Size = new System.Drawing.Size(251, 24);
             this.btnFiltrarFechaInicialTiene.Text = "Fecha Inicial: Tiene";
             this.btnFiltrarFechaInicialTiene.Click += new System.EventHandler(this.FiltrarTareas);
             // 
             // btnFiltrarFechaInicialNoTiene
             // 
             this.btnFiltrarFechaInicialNoTiene.Name = "btnFiltrarFechaInicialNoTiene";
-            this.btnFiltrarFechaInicialNoTiene.Size = new System.Drawing.Size(308, 28);
+            this.btnFiltrarFechaInicialNoTiene.Size = new System.Drawing.Size(251, 24);
             this.btnFiltrarFechaInicialNoTiene.Text = "Fecha Inicial: No Tiene";
             this.btnFiltrarFechaInicialNoTiene.Click += new System.EventHandler(this.FiltrarTareas);
             // 
@@ -488,34 +494,34 @@ namespace Tareas
             this.btnFiltrarRecordatorioTiene,
             this.btnFiltrarRecordatorioNoTiene});
             this.btnFiltrarPorRecordatorio.Name = "btnFiltrarPorRecordatorio";
-            this.btnFiltrarPorRecordatorio.Size = new System.Drawing.Size(256, 28);
+            this.btnFiltrarPorRecordatorio.Size = new System.Drawing.Size(209, 24);
             this.btnFiltrarPorRecordatorio.Text = "Por Recordatorio";
             // 
             // btnFiltrarRecordatorioTiene
             // 
             this.btnFiltrarRecordatorioTiene.Name = "btnFiltrarRecordatorioTiene";
-            this.btnFiltrarRecordatorioTiene.Size = new System.Drawing.Size(314, 28);
+            this.btnFiltrarRecordatorioTiene.Size = new System.Drawing.Size(256, 24);
             this.btnFiltrarRecordatorioTiene.Text = "Recordatorio: Tiene";
             this.btnFiltrarRecordatorioTiene.Click += new System.EventHandler(this.FiltrarTareas);
             // 
             // btnFiltrarRecordatorioNoTiene
             // 
             this.btnFiltrarRecordatorioNoTiene.Name = "btnFiltrarRecordatorioNoTiene";
-            this.btnFiltrarRecordatorioNoTiene.Size = new System.Drawing.Size(314, 28);
+            this.btnFiltrarRecordatorioNoTiene.Size = new System.Drawing.Size(256, 24);
             this.btnFiltrarRecordatorioNoTiene.Text = "Recordatorio: No Tiene";
             this.btnFiltrarRecordatorioNoTiene.Click += new System.EventHandler(this.FiltrarTareas);
             // 
             // btnSinFiltro
             // 
             this.btnSinFiltro.Name = "btnSinFiltro";
-            this.btnSinFiltro.Size = new System.Drawing.Size(256, 28);
+            this.btnSinFiltro.Size = new System.Drawing.Size(209, 24);
             this.btnSinFiltro.Text = "Sin Filtro";
             this.btnSinFiltro.Click += new System.EventHandler(this.FiltrarTareas);
             // 
             // btnPassword
             // 
             this.btnPassword.Name = "btnPassword";
-            this.btnPassword.Size = new System.Drawing.Size(133, 28);
+            this.btnPassword.Size = new System.Drawing.Size(110, 23);
             this.btnPassword.Text = "Contraseña";
             this.btnPassword.Click += new System.EventHandler(this.btnPassword_Click);
             // 
@@ -530,34 +536,34 @@ namespace Tareas
             this.btnVerdePrincipal});
             this.btnTema.ForeColor = System.Drawing.Color.White;
             this.btnTema.Name = "btnTema";
-            this.btnTema.Size = new System.Drawing.Size(75, 28);
+            this.btnTema.Size = new System.Drawing.Size(62, 23);
             this.btnTema.Text = "Tema";
             // 
             // btnAzulBasico
             // 
             this.btnAzulBasico.Name = "btnAzulBasico";
-            this.btnAzulBasico.Size = new System.Drawing.Size(236, 28);
+            this.btnAzulBasico.Size = new System.Drawing.Size(193, 24);
             this.btnAzulBasico.Text = "Azul Básico";
             this.btnAzulBasico.Click += new System.EventHandler(this.CambiarTemaAplicacion);
             // 
             // btnRosaBasico
             // 
             this.btnRosaBasico.Name = "btnRosaBasico";
-            this.btnRosaBasico.Size = new System.Drawing.Size(236, 28);
+            this.btnRosaBasico.Size = new System.Drawing.Size(193, 24);
             this.btnRosaBasico.Text = "Rosa Básico";
             this.btnRosaBasico.Click += new System.EventHandler(this.CambiarTemaAplicacion);
             // 
             // btnVerdeBasico
             // 
             this.btnVerdeBasico.Name = "btnVerdeBasico";
-            this.btnVerdeBasico.Size = new System.Drawing.Size(236, 28);
+            this.btnVerdeBasico.Size = new System.Drawing.Size(193, 24);
             this.btnVerdeBasico.Text = "Verde Básico";
             this.btnVerdeBasico.Click += new System.EventHandler(this.CambiarTemaAplicacion);
             // 
             // btnAzulPrincipal
             // 
             this.btnAzulPrincipal.Name = "btnAzulPrincipal";
-            this.btnAzulPrincipal.Size = new System.Drawing.Size(236, 28);
+            this.btnAzulPrincipal.Size = new System.Drawing.Size(193, 24);
             this.btnAzulPrincipal.Text = "Azul Principal";
             this.btnAzulPrincipal.Click += new System.EventHandler(this.CambiarTemaAplicacion);
             // 
@@ -565,7 +571,7 @@ namespace Tareas
             // 
             this.btnRojoPrincipal.AccessibleDescription = "";
             this.btnRojoPrincipal.Name = "btnRojoPrincipal";
-            this.btnRojoPrincipal.Size = new System.Drawing.Size(236, 28);
+            this.btnRojoPrincipal.Size = new System.Drawing.Size(193, 24);
             this.btnRojoPrincipal.Text = "Rojo Principal";
             this.btnRojoPrincipal.Click += new System.EventHandler(this.CambiarTemaAplicacion);
             // 
@@ -573,7 +579,7 @@ namespace Tareas
             // 
             this.btnVerdePrincipal.AccessibleDescription = "";
             this.btnVerdePrincipal.Name = "btnVerdePrincipal";
-            this.btnVerdePrincipal.Size = new System.Drawing.Size(236, 28);
+            this.btnVerdePrincipal.Size = new System.Drawing.Size(193, 24);
             this.btnVerdePrincipal.Text = "Verde Principal";
             this.btnVerdePrincipal.Click += new System.EventHandler(this.CambiarTemaAplicacion);
             // 
@@ -581,9 +587,9 @@ namespace Tareas
             // 
             this.lblNotificaciones.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblNotificaciones.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblNotificaciones.Location = new System.Drawing.Point(1401, 101);
+            this.lblNotificaciones.Location = new System.Drawing.Point(1226, 76);
             this.lblNotificaciones.Name = "lblNotificaciones";
-            this.lblNotificaciones.Size = new System.Drawing.Size(261, 37);
+            this.lblNotificaciones.Size = new System.Drawing.Size(228, 28);
             this.lblNotificaciones.TabIndex = 8;
             this.lblNotificaciones.Text = "Notificaciones";
             this.lblNotificaciones.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -593,9 +599,10 @@ namespace Tareas
             this.btnSalir.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btnSalir.BackColor = System.Drawing.Color.Lavender;
             this.btnSalir.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSalir.Location = new System.Drawing.Point(1400, 772);
+            this.btnSalir.Location = new System.Drawing.Point(1225, 579);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(262, 72);
+            this.btnSalir.Size = new System.Drawing.Size(229, 54);
             this.btnSalir.TabIndex = 1;
             this.btnSalir.Text = "Cerrar";
             this.btnSalir.UseVisualStyleBackColor = false;
@@ -605,9 +612,9 @@ namespace Tareas
             // 
             this.lblFiltro.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblFiltro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblFiltro.Location = new System.Drawing.Point(1401, 140);
+            this.lblFiltro.Location = new System.Drawing.Point(1226, 105);
             this.lblFiltro.Name = "lblFiltro";
-            this.lblFiltro.Size = new System.Drawing.Size(261, 77);
+            this.lblFiltro.Size = new System.Drawing.Size(228, 58);
             this.lblFiltro.TabIndex = 9;
             this.lblFiltro.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -615,9 +622,9 @@ namespace Tareas
             // 
             this.lblOrdenamiento.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblOrdenamiento.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblOrdenamiento.Location = new System.Drawing.Point(1401, 229);
+            this.lblOrdenamiento.Location = new System.Drawing.Point(1226, 172);
             this.lblOrdenamiento.Name = "lblOrdenamiento";
-            this.lblOrdenamiento.Size = new System.Drawing.Size(261, 89);
+            this.lblOrdenamiento.Size = new System.Drawing.Size(228, 67);
             this.lblOrdenamiento.TabIndex = 10;
             this.lblOrdenamiento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -625,9 +632,10 @@ namespace Tareas
             // 
             this.btnReestablecerOrden.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btnReestablecerOrden.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnReestablecerOrden.Location = new System.Drawing.Point(1469, 47);
+            this.btnReestablecerOrden.Location = new System.Drawing.Point(1285, 35);
+            this.btnReestablecerOrden.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnReestablecerOrden.Name = "btnReestablecerOrden";
-            this.btnReestablecerOrden.Size = new System.Drawing.Size(114, 52);
+            this.btnReestablecerOrden.Size = new System.Drawing.Size(100, 39);
             this.btnReestablecerOrden.TabIndex = 11;
             this.btnReestablecerOrden.Text = "Reestablecer Orden";
             this.btnReestablecerOrden.UseVisualStyleBackColor = true;
@@ -637,9 +645,10 @@ namespace Tareas
             // 
             this.btnQuitarFiltro.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btnQuitarFiltro.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnQuitarFiltro.Location = new System.Drawing.Point(1397, 47);
+            this.btnQuitarFiltro.Location = new System.Drawing.Point(1222, 35);
+            this.btnQuitarFiltro.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnQuitarFiltro.Name = "btnQuitarFiltro";
-            this.btnQuitarFiltro.Size = new System.Drawing.Size(73, 52);
+            this.btnQuitarFiltro.Size = new System.Drawing.Size(64, 39);
             this.btnQuitarFiltro.TabIndex = 12;
             this.btnQuitarFiltro.Text = "Quitar Filtro";
             this.btnQuitarFiltro.UseVisualStyleBackColor = true;
@@ -647,10 +656,10 @@ namespace Tareas
             // 
             // FrmTareas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1670, 856);
+            this.ClientSize = new System.Drawing.Size(1461, 642);
             this.Controls.Add(this.btnQuitarFiltro);
             this.Controls.Add(this.btnReestablecerOrden);
             this.Controls.Add(this.lblOrdenamiento);
@@ -667,8 +676,8 @@ namespace Tareas
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuOpciones;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "FrmTareas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tareas";

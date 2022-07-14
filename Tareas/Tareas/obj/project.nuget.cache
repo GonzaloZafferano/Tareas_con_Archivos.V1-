@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ud+lpQzYzkrWiopVf0Mr2T3RbMWA8E1n3enufJfqmltpHFHSKusfeqi7OxaS29evTdseUChCTZCjOYTIyNnv3Q==",
+  "dgSpecHash": "e2h5eutYBZvtP0Qc2WAefW2/tFmmAyWhEQ033xx2YXxBdFo+zjFO1Q4s03TAC/PGQeJ2m3lf4AO1bKQnhHG9hA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta (7)\\Tareas_con_Archivos.V1-\\Tareas\\Tareas\\Tareas.csproj",
+  "projectFilePath": "C:\\Users\\GONZALO\\Desktop\\Nueva carpeta (2)\\Tareas_con_Archivos.V1-\\Tareas\\Tareas\\Tareas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GONZALO\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\GONZALO\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

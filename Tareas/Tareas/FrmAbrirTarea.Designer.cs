@@ -52,9 +52,10 @@ namespace Tareas
             // 
             this.rTxtContenidoTarea.BackColor = System.Drawing.Color.White;
             this.rTxtContenidoTarea.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.rTxtContenidoTarea.Location = new System.Drawing.Point(12, 50);
+            this.rTxtContenidoTarea.Location = new System.Drawing.Point(10, 38);
+            this.rTxtContenidoTarea.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rTxtContenidoTarea.Name = "rTxtContenidoTarea";
-            this.rTxtContenidoTarea.Size = new System.Drawing.Size(575, 320);
+            this.rTxtContenidoTarea.Size = new System.Drawing.Size(504, 241);
             this.rTxtContenidoTarea.TabIndex = 0;
             this.rTxtContenidoTarea.TabStop = false;
             this.rTxtContenidoTarea.Text = "";
@@ -62,9 +63,10 @@ namespace Tareas
             // btnAgregar
             // 
             this.btnAgregar.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAgregar.Location = new System.Drawing.Point(397, 708);
+            this.btnAgregar.Location = new System.Drawing.Point(347, 531);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(190, 45);
+            this.btnAgregar.Size = new System.Drawing.Size(166, 34);
             this.btnAgregar.TabIndex = 0;
             this.btnAgregar.Text = "Aceptar";
             this.btnAgregar.UseVisualStyleBackColor = true;
@@ -74,9 +76,10 @@ namespace Tareas
             // 
             this.cBoxRecordatorio.AutoSize = true;
             this.cBoxRecordatorio.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.cBoxRecordatorio.Location = new System.Drawing.Point(11, 579);
+            this.cBoxRecordatorio.Location = new System.Drawing.Point(10, 434);
+            this.cBoxRecordatorio.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cBoxRecordatorio.Name = "cBoxRecordatorio";
-            this.cBoxRecordatorio.Size = new System.Drawing.Size(263, 33);
+            this.cBoxRecordatorio.Size = new System.Drawing.Size(215, 26);
             this.cBoxRecordatorio.TabIndex = 2;
             this.cBoxRecordatorio.TabStop = false;
             this.cBoxRecordatorio.Text = "Activar recordatorio";
@@ -87,27 +90,29 @@ namespace Tareas
             this.cmbBoxEstado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbBoxEstado.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.cmbBoxEstado.FormattingEnabled = true;
-            this.cmbBoxEstado.Location = new System.Drawing.Point(333, 459);
+            this.cmbBoxEstado.Location = new System.Drawing.Point(291, 344);
+            this.cmbBoxEstado.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbBoxEstado.Name = "cmbBoxEstado";
-            this.cmbBoxEstado.Size = new System.Drawing.Size(254, 35);
+            this.cmbBoxEstado.Size = new System.Drawing.Size(223, 30);
             this.cmbBoxEstado.TabIndex = 3;
             this.cmbBoxEstado.TabStop = false;
             // 
             // lblFechaFinal
             // 
             this.lblFechaFinal.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblFechaFinal.Location = new System.Drawing.Point(333, 640);
+            this.lblFechaFinal.Location = new System.Drawing.Point(291, 480);
             this.lblFechaFinal.Name = "lblFechaFinal";
-            this.lblFechaFinal.Size = new System.Drawing.Size(254, 38);
+            this.lblFechaFinal.Size = new System.Drawing.Size(222, 28);
             this.lblFechaFinal.TabIndex = 4;
             this.lblFechaFinal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // btnFechaInicial
             // 
             this.btnFechaInicial.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnFechaInicial.Location = new System.Drawing.Point(12, 386);
+            this.btnFechaInicial.Location = new System.Drawing.Point(10, 290);
+            this.btnFechaInicial.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnFechaInicial.Name = "btnFechaInicial";
-            this.btnFechaInicial.Size = new System.Drawing.Size(300, 50);
+            this.btnFechaInicial.Size = new System.Drawing.Size(262, 38);
             this.btnFechaInicial.TabIndex = 5;
             this.btnFechaInicial.TabStop = false;
             this.btnFechaInicial.Text = "Fecha inicial (opcional)";
@@ -117,9 +122,10 @@ namespace Tareas
             // btnFechaFinal
             // 
             this.btnFechaFinal.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnFechaFinal.Location = new System.Drawing.Point(11, 634);
+            this.btnFechaFinal.Location = new System.Drawing.Point(10, 476);
+            this.btnFechaFinal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnFechaFinal.Name = "btnFechaFinal";
-            this.btnFechaFinal.Size = new System.Drawing.Size(300, 50);
+            this.btnFechaFinal.Size = new System.Drawing.Size(262, 38);
             this.btnFechaFinal.TabIndex = 6;
             this.btnFechaFinal.TabStop = false;
             this.btnFechaFinal.Text = "Fecha final (opcional)";
@@ -129,18 +135,19 @@ namespace Tareas
             // lblFechaInicial
             // 
             this.lblFechaInicial.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblFechaInicial.Location = new System.Drawing.Point(333, 392);
+            this.lblFechaInicial.Location = new System.Drawing.Point(291, 294);
             this.lblFechaInicial.Name = "lblFechaInicial";
-            this.lblFechaInicial.Size = new System.Drawing.Size(254, 38);
+            this.lblFechaInicial.Size = new System.Drawing.Size(222, 28);
             this.lblFechaInicial.TabIndex = 7;
             this.lblFechaInicial.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // btnColor
             // 
             this.btnColor.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnColor.Location = new System.Drawing.Point(331, 573);
+            this.btnColor.Location = new System.Drawing.Point(290, 430);
+            this.btnColor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnColor.Name = "btnColor";
-            this.btnColor.Size = new System.Drawing.Size(125, 46);
+            this.btnColor.Size = new System.Drawing.Size(109, 34);
             this.btnColor.TabIndex = 9;
             this.btnColor.TabStop = false;
             this.btnColor.Text = "Color tarea";
@@ -150,9 +157,9 @@ namespace Tareas
             // lblEstadoTarea
             // 
             this.lblEstadoTarea.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblEstadoTarea.Location = new System.Drawing.Point(12, 455);
+            this.lblEstadoTarea.Location = new System.Drawing.Point(10, 341);
             this.lblEstadoTarea.Name = "lblEstadoTarea";
-            this.lblEstadoTarea.Size = new System.Drawing.Size(301, 41);
+            this.lblEstadoTarea.Size = new System.Drawing.Size(263, 31);
             this.lblEstadoTarea.TabIndex = 10;
             this.lblEstadoTarea.Text = "Estado de la tarea:";
             this.lblEstadoTarea.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -160,18 +167,19 @@ namespace Tareas
             // lblContenidoTarea
             // 
             this.lblContenidoTarea.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblContenidoTarea.Location = new System.Drawing.Point(12, 9);
+            this.lblContenidoTarea.Location = new System.Drawing.Point(10, 7);
             this.lblContenidoTarea.Name = "lblContenidoTarea";
-            this.lblContenidoTarea.Size = new System.Drawing.Size(267, 38);
+            this.lblContenidoTarea.Size = new System.Drawing.Size(234, 28);
             this.lblContenidoTarea.TabIndex = 11;
             this.lblContenidoTarea.Text = "Tarea:";
             // 
             // btnColorLetra
             // 
             this.btnColorLetra.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnColorLetra.Location = new System.Drawing.Point(462, 573);
+            this.btnColorLetra.Location = new System.Drawing.Point(404, 430);
+            this.btnColorLetra.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnColorLetra.Name = "btnColorLetra";
-            this.btnColorLetra.Size = new System.Drawing.Size(125, 46);
+            this.btnColorLetra.Size = new System.Drawing.Size(109, 34);
             this.btnColorLetra.TabIndex = 12;
             this.btnColorLetra.TabStop = false;
             this.btnColorLetra.Text = "Color letra";
@@ -181,9 +189,10 @@ namespace Tareas
             // btnRestaurarTema
             // 
             this.btnRestaurarTema.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnRestaurarTema.Location = new System.Drawing.Point(369, 9);
+            this.btnRestaurarTema.Location = new System.Drawing.Point(323, 7);
+            this.btnRestaurarTema.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRestaurarTema.Name = "btnRestaurarTema";
-            this.btnRestaurarTema.Size = new System.Drawing.Size(218, 36);
+            this.btnRestaurarTema.Size = new System.Drawing.Size(191, 27);
             this.btnRestaurarTema.TabIndex = 13;
             this.btnRestaurarTema.TabStop = false;
             this.btnRestaurarTema.Text = "Restablecer tema";
@@ -193,9 +202,10 @@ namespace Tareas
             // btnCancelar
             // 
             this.btnCancelar.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCancelar.Location = new System.Drawing.Point(11, 708);
+            this.btnCancelar.Location = new System.Drawing.Point(10, 531);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(190, 45);
+            this.btnCancelar.Size = new System.Drawing.Size(166, 34);
             this.btnCancelar.TabIndex = 1;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -206,27 +216,28 @@ namespace Tareas
             this.cmbBoxPrioridad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbBoxPrioridad.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.cmbBoxPrioridad.FormattingEnabled = true;
-            this.cmbBoxPrioridad.Location = new System.Drawing.Point(333, 514);
+            this.cmbBoxPrioridad.Location = new System.Drawing.Point(291, 386);
+            this.cmbBoxPrioridad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbBoxPrioridad.Name = "cmbBoxPrioridad";
-            this.cmbBoxPrioridad.Size = new System.Drawing.Size(254, 35);
+            this.cmbBoxPrioridad.Size = new System.Drawing.Size(223, 30);
             this.cmbBoxPrioridad.TabIndex = 14;
             this.cmbBoxPrioridad.TabStop = false;
             // 
             // lblPrioridadTarea
             // 
             this.lblPrioridadTarea.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblPrioridadTarea.Location = new System.Drawing.Point(12, 510);
+            this.lblPrioridadTarea.Location = new System.Drawing.Point(10, 382);
             this.lblPrioridadTarea.Name = "lblPrioridadTarea";
-            this.lblPrioridadTarea.Size = new System.Drawing.Size(301, 41);
+            this.lblPrioridadTarea.Size = new System.Drawing.Size(263, 31);
             this.lblPrioridadTarea.TabIndex = 15;
             this.lblPrioridadTarea.Text = "Prioridad de la tarea:";
             this.lblPrioridadTarea.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // FrmAbrirTarea
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 765);
+            this.ClientSize = new System.Drawing.Size(525, 574);
             this.Controls.Add(this.lblPrioridadTarea);
             this.Controls.Add(this.cmbBoxPrioridad);
             this.Controls.Add(this.btnCancelar);
@@ -245,8 +256,8 @@ namespace Tareas
             this.Controls.Add(this.rTxtContenidoTarea);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "FrmAbrirTarea";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmAgregarTarea_FormClosing);
